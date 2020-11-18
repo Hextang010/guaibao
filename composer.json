@@ -1,0 +1,23 @@
+{
+    "name": "guaibao/dict",
+    "description": "This is a test.",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "latest"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "latest"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tangleitao",
+            "email": "tangleitao@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MyDict\\": "src"
+        }
+    },
+}
